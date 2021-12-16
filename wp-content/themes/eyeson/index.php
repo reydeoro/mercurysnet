@@ -15,7 +15,7 @@
 		<nav class="navbar navbar-default" style="margin-bottom:0;">
 		  <div class="navbar-header">
 		    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-navbar-collapse-1">
-		      <span class="sr-only">メニュー</span>
+		      <span class="sr-only">メニュ</span>
 		      <span class="icon-bar"></span>
 		      <span class="icon-bar"></span>
 		      <span class="icon-bar"></span>
