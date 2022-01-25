@@ -26,13 +26,13 @@
 
 // ** MySQL 設定 - この情報はホスティング先から入手してください。 ** //
 /** WordPress のためのデータベース名 */
-define( 'DB_NAME', 'yuzuhorse' );
+define( 'DB_NAME', 'lonasql' );
 
 /** MySQL データベースのユーザー名 */
 define( 'DB_USER', 'root' );
 
 /** MySQL データベースのパスワード */
-define( 'DB_PASSWORD', '' );
+define( 'DB_PASSWORD', 'root' );
 
 /** MySQL のホスト名 */
 define( 'DB_HOST', 'localhost' );
