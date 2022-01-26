@@ -1,13 +1,32 @@
-<h1 class="text-center">セミナー情報</h1>
- 			<section id="wordpress-seminar">
- 				<h2>WordPress入門セミナー</h2>
+<!--サイドバーを作成-->
+<div id="sidebar" class="col-md-3">
+ 			<h1 class="text-center">セミナー情報</h1>
+
+			 <section id="wordpress-profile">
+ 				<h2>広告！</h2>
  				<p>
- 					<img src="<?php echo get_template_directory_uri(); ?>/images/seminar-wordpress.png" alt="ワードプレスセミナー画像">
+ 					
  				</p>					
  			</section>
- 			<section id="seo-seminar">
- 				<h2>SEO入門セミナー</h2>
+
+ 			<section id="wordpress-profile">
+ 				<h2>プロフィール</h2>
  				<p>
- 					<img src="<?php echo get_template_directory_uri(); ?>/images/seminar-seo.png" alt="SEOセミナー画像">
+ 					
  				</p>					
  			</section>
+
+ 			<section id="seo-search">
+ 				<h2>記事検索</h2>
+ 				<p>
+ 					
+ 				</p>					
+ 			</section>
+
+			 <section id="seo-search">
+ 				<h2>最新記事</h2>
+ 				<p>
+ 					
+ 				</p>					
+ 			</section>
+</div>

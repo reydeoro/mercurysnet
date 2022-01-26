@@ -10,17 +10,25 @@ h3{ font-size:18px;}
 
 img{ max-width:100%;  }
 
+/*sectionでcontentを使います*/
 #content{
-  background:url(images/pattern-diamond.png);
   padding-top:20px;
   padding-bottom:20px;
 }
 
-
-
+/*影はつけない*/
 #content-wrap{
   background-color: white;
-  box-shadow: 2px 2px 2px rgba(0,0,0,.3);
+  box-shadow: 2px 2px 2px 2px rgba(0,0,0,.3);
+}
+
+.newarticle{
+  display: flex;
+  list-style: none;
+}
+
+.articlemargin{
+  margin: 0 2% 32px 0!important;
 }
 
 
