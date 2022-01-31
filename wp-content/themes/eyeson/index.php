@@ -34,16 +34,16 @@
  <div id="content-wrap" class="container">
 	 <ul class="newarticle">
 		 <li class="articlemargin">
-			 あいうえお
+			 最新記事
 		 </li>
 		 <li class="articlemargin">
-			 あいうえお
+			 最新動画
 		 </li>
 		 <li class="articlemargin">
-			 あいうえお
+			 最新の競馬予想
 		 </li>
 	 </ul>
-	ここにおすすめ記事入れよう
+	ここに記事を入れる
 </div>
  </section>
 	
