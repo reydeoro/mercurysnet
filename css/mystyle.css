@@ -16,10 +16,48 @@ img{ max-width:100%;  }
   padding-bottom:20px;
 }
 
-/*影はつけない*/
+/*影をつける*/
 #content-wrap{
   background-color: white;
-  box-shadow: 2px 2px 2px 2px rgba(0,0,0,.3);
+  box-shadow: 5px 5px 5px 10px rgba(0,0,0,.3);
+}
+
+#recomeflex{
+  padding-top:20px;
+  padding-bottom:20px;
+}
+
+/*おすすめに影をつける*/
+#recomeflex-wrap{
+  background-color: white;
+  box-shadow: 5px 5px 5px 10px rgba(0,0,0,.3);
+}
+
+
+
+
+/*コンテナ内はflexで並べる*/
+.container{
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+}
+/*空白のアイテムを調節する*/
+.item {
+  padding: 30px;
+  width: 32%;
+  background-color: #fff;
+}
+
+/*レスポンシブ対応*/
+@media not all and (min-width: 768px) {
+  .item {
+    width: 100%;
+  }
+
+  .item:not(:last-child) {
+    margin-bottom: 30px;
+  }
 }
 
 .newarticle{
@@ -29,7 +67,11 @@ img{ max-width:100%;  }
 
 .articlemargin{
   margin: 0 2% 32px 0!important;
+  display: flex;
+  flex-direction: row;
 }
+
+
 
 
 #sidebar{ text-align: center;}

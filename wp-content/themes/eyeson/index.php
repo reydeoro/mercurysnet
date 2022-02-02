@@ -30,21 +30,49 @@
  </section>
 
  <!--おすすめ記事の表示、flexで表示したい-->
- <section id ="recomend">
- <div id="content-wrap" class="container">
-	 <ul class="newarticle">
-		 <li class="articlemargin">
-			 最新記事
-		 </li>
-		 <li class="articlemargin">
-			 最新動画
-		 </li>
-		 <li class="articlemargin">
-			 最新の競馬予想
-		 </li>
-	 </ul>
-	ここに記事を入れる
-</div>
+ <section id ="recomeflex"> 
+		<div id="recomeflex-wrap" class="container">
+			<div class="item">
+				<img src="img/movie.jpg">
+				<h2>最新記事</h2>
+				<p>最新記事をここに載っけます</p>
+			</div>
+
+			<div class="item">
+				<img src="img/movie.jpg">
+				<h2>最新動画</h2>
+				<p>最新動画をここに載っけます</p>
+			</div>
+
+			<div class="item">
+				<img src="img/movie.jpg">
+				<h2>競馬予想</h2>
+				<p>競馬予想をここに載っけます</p>
+			</div>
+		</div>
+ </section>
+
+ <!--最新ニュースの表示-->
+ <section id ="recomeflex"> 
+		<div class="container">
+			<div class="item">
+				<img src="img/movie.jpg">
+				<h2>最新記事</h2>
+				<p>最新記事をここに載っけます</p>
+			</div>
+
+			<div class="item">
+				<img src="img/movie.jpg">
+				<h2>最新動画</h2>
+				<p>最新動画をここに載っけます</p>
+			</div>
+
+			<div class="item">
+				<img src="img/movie.jpg">
+				<h2>競馬予想</h2>
+				<p>競馬予想をここに載っけます</p>
+			</div>
+		</div>
  </section>
 	
 	<!--wordpressの情報を取得する-->
