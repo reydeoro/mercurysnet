@@ -13,67 +13,52 @@
 </head>
 
 <body>
-<?php get_header(); ?>
- <section id="content">
-	 <div id="content-wrap" class="container">
- 		<div id="main" class="col-md-9">
- 			<h1 class="text-center">自由に生きる、そんなことは無理だ☆</h1>
- 			<p>
+	<?php get_header(); ?>
+	<h1 class="text-center">吟遊詩人ゆずはらマーキュリーのサイトです</h1>
+ 			<p class="text-center">
  				底辺YouTuber、「ゆずはらマーキュリー」のWebサイトです。
  				<br>
-				<br>
 				みんなで楽しめる、楽しませるやばい吟遊詩人で〜す！
  			</p>
+
+	 <section id="content">
+	 <div id="content-wrap" class="container">
+ 		<!--おすすめ記事の表示、flexで表示したい-->
+		 	<div class="container">
+				<div class="item">
+					<img src="img/movie.jpg">
+					<h2>最新記事</h2>
+					<p>最新記事をここに載っけます</p>
+				</div>
+
+				<div class="item">
+					<img src="img/movie.jpg">
+					<h2>最新動画</h2>
+					<p>最新動画をここに載っけます</p>
+				</div>
+
+				<div class="item">
+					<img src="img/movie.jpg">
+					<h2>競馬予想</h2>
+					<p>競馬予想をここに載っけます</p>
+				</div>
+			</div>
+	 
+		<!--メイン記事をかき込みます-->
+	 	<div id="main" class="col-md-9">
+			<section id="tubetube">
+				<h2>・YouTubeチャンネル</h2>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/feSC-1wSngM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</section>
+
+			<section id="newsnews">
+				<h2>・最新記事</h2>
+			</section>
  		</div>
 		 <?php get_sidebar(); ?>
-	</div> 
- </section>
-
- <!--おすすめ記事の表示、flexで表示したい-->
- <section id ="recomeflex"> 
-		<div id="recomeflex-wrap" class="container">
-			<div class="item">
-				<img src="img/movie.jpg">
-				<h2>最新記事</h2>
-				<p>最新記事をここに載っけます</p>
-			</div>
-
-			<div class="item">
-				<img src="img/movie.jpg">
-				<h2>最新動画</h2>
-				<p>最新動画をここに載っけます</p>
-			</div>
-
-			<div class="item">
-				<img src="img/movie.jpg">
-				<h2>競馬予想</h2>
-				<p>競馬予想をここに載っけます</p>
-			</div>
-		</div>
- </section>
-
- <!--最新ニュースの表示-->
- <section id ="recomeflex"> 
-		<div class="container">
-			<div class="item">
-				<img src="img/movie.jpg">
-				<h2>最新記事</h2>
-				<p>最新記事をここに載っけます</p>
-			</div>
-
-			<div class="item">
-				<img src="img/movie.jpg">
-				<h2>最新動画</h2>
-				<p>最新動画をここに載っけます</p>
-			</div>
-
-			<div class="item">
-				<img src="img/movie.jpg">
-				<h2>競馬予想</h2>
-				<p>競馬予想をここに載っけます</p>
-			</div>
-		</div>
- </section>
+	</div>
+		 
+</section>
 	
 	<!--wordpressの情報を取得する-->
 	<?php wp_footer(); ?>	

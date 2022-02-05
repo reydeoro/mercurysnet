@@ -16,11 +16,7 @@ img{ max-width:100%;  }
   padding-bottom:20px;
 }
 
-/*影をつける*/
-#content-wrap{
-  background-color: white;
-  box-shadow: 5px 5px 5px 10px rgba(0,0,0,.3);
-}
+
 
 #recomeflex{
   padding-top:20px;
@@ -30,11 +26,15 @@ img{ max-width:100%;  }
 /*おすすめに影をつける*/
 #recomeflex-wrap{
   background-color: white;
-  box-shadow: 5px 5px 5px 10px rgba(0,0,0,.3);
+  /*box-shadow: 5px 5px 5px 10px rgba(0,0,0,.3);*/
 }
 
-
-
+/*TOPとBottomのサイズを変更する*/
+.col-md-9{
+  padding-top:20px;
+  padding-bottom:20px;
+  background-color: rgba(255, 255, 255, 0.479);
+}
 
 /*コンテナ内はflexで並べる*/
 .container{
@@ -44,8 +44,10 @@ img{ max-width:100%;  }
 }
 /*空白のアイテムを調節する*/
 .item {
+  border: 1px solid #333;
   padding: 30px;
   width: 32%;
+  text-align: center;
   background-color: #fff;
 }
 
