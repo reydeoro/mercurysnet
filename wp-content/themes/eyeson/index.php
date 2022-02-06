@@ -53,6 +53,32 @@
 
 			<section id="newsnews">
 				<h2>・最新記事</h2>
+			<!--おすすめ記事の表示、4件をflexで表示したい-->
+			<div class="newart">
+				<div class="newartitem">
+					<img src="img/movie.jpg">
+					<h2>最新記事</h2>
+					<p>最新記事をここに載っけます</p>
+				</div>
+
+				<div class="newartitem">
+					<img src="img/movie.jpg">
+					<h2>最新動画</h2>
+					<p>最新動画をここに載っけます</p>
+				</div>
+
+				<div class="newartitem">
+					<img src="img/movie.jpg">
+					<h2>競馬予想</h2>
+					<p>競馬予想をここに載っけます</p>
+				</div>
+
+				<div class="newartitem">
+					<img src="img/movie.jpg">
+					<h2>競馬予想</h2>
+					<p>競馬予想をここに載っけます</p>
+				</div>
+			</div>
 			</section>
  		</div>
 		 <?php get_sidebar(); ?>
