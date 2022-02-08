@@ -110,35 +110,34 @@
 
 			<!--柚原のブログを紹介するところです。ぺージャーを追加予定-->
 			<section id="yuzublog">
-			<div class="newsbodytitle">
-				柚原からのお知らせ！
-			</div>
-			<!--おすすめ記事の表示、4件をflexで表示したい-->
-			<div class="newart">
-				<div class="newartitem">
-					<img src="img/movie.jpg">
-					<h2>最新記事</h2>
-					<p>最新記事をここに載っけます</p>
+				<div class="newsbodytitle">
+					・柚原のブログ
 				</div>
 
-				<div class="newartitem">
-					<img src="img/movie.jpg">
-					<h2>最新動画</h2>
-					<p>最新動画をここに載っけます</p>
-				</div>
+				<!--柚原のブログdlタグで紹介します。ボーダーは削除します。-->
+				<div class="blog">
+					<dl>
+						<dt class ="blogimage"> 
+							<div class="newartitem">
+								<img src="img/movie.jpg">
+							</div>
+						</dt>
+						<dd class="titlekey">
+							<h3>タイトルホルダー</h3>
+							<p>タイトルだよー</p>
+						</dd>
+					</dl>
 
-				<div class="newartitem">
-					<img src="img/movie.jpg">
-					<h2>競馬予想</h2>
-					<p>競馬予想をここに載っけます</p>
-				</div>
+					<dl>
+						<dt>20180101</dt>
+						<dd>新着情報の内容が入ります。</dd>
+					</dl>
 
-				<div class="newartitem">
-					<img src="img/movie.jpg">
-					<h2>競馬予想</h2>
-					<p>競馬予想をここに載っけます</p>
+					<dl>
+						<dt>20180101</dt>
+						<dd>新着情報の内容が入ります。</dd>
+					</dl>
 				</div>
-			</div>
 			</section>
  		</div>
 		 <?php get_sidebar(); ?>

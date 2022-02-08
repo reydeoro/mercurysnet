@@ -140,6 +140,20 @@ img{ max-width:100%;  }
   flex-direction: row;
 }
 
+/*ブログのタイトルと記事内容をを表示させる*/
+.titlekey{
+  float: left ;
+	margin-left: 1em ;
+}
+
+/*画像を左並びに設定します*/
+.blogimage{
+  float: left;
+  clear: left;
+	margin-right: 0.5em;
+	width: 120px;
+}
+
 /*サイドバーを真ん中に揃えて表示*/
 #sidebar{
   margin-top: 20px;
