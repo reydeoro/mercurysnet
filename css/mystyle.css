@@ -142,16 +142,24 @@ img{ max-width:100%;  }
 
 /*ブログのタイトルと記事内容をを表示させる*/
 .titlekey{
-  float: left ;
+  padding-left:30%;
 	margin-left: 1em ;
 }
 
 /*画像を左並びに設定します*/
 .blogimage{
-  float: left;
-  clear: left;
-	margin-right: 0.5em;
-	width: 120px;
+  float:left; 
+  width:40%;
+}
+
+/*ブログ記事の大きさを調節する*/
+.newblogart{
+  padding: 10px;
+  box-shadow: 3px 3px 3px rgb(0 0 0 / 20%), -2px -2px 2px rgb(0 0 0 / 10%);
+  margin: 5px;
+  margin-bottom: 25px;
+  font-size: 16px;
+  transition: 0.5s ease;  
 }
 
 /*サイドバーを真ん中に揃えて表示*/

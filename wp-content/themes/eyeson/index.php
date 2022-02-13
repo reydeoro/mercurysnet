@@ -116,11 +116,11 @@
 
 				<!--柚原のブログdlタグで紹介します。ボーダーは削除します。-->
 				<div class="blog">
-					<dl>
+					<dl class="clearfix">
 						<dt class ="blogimage"> 
-							<div class="newartitem">
-								<img src="img/movie.jpg">
-							</div>
+						<div class="newblogart">
+							<img src="img/movie.jpg">
+						</div>
 						</dt>
 						<dd class="titlekey">
 							<h3>タイトルホルダー</h3>
@@ -128,15 +128,30 @@
 						</dd>
 					</dl>
 
-					<dl>
-						<dt>20180101</dt>
-						<dd>新着情報の内容が入ります。</dd>
+					<dl class="clearfix">
+					<dt class ="blogimage"> 
+						<div class="newblogart">
+							<img src="img/movie.jpg">
+						</div>
+						</dt>
+						<dd class="titlekey">
+							<h3>タイトルホルダー</h3>
+							<p>タイトルだよー</p>
+						</dd>
 					</dl>
 
-					<dl>
-						<dt>20180101</dt>
-						<dd>新着情報の内容が入ります。</dd>
+					<dl class="clearfix">
+					<dt class ="blogimage"> 
+						<div class="newblogart">
+							<img src="img/movie.jpg">
+						</div>
+						</dt>
+						<dd class="titlekey">
+							<h3>タイトルホルダー</h3>
+							<p>タイトルだよー</p>
+						</dd>
 					</dl>
+
 				</div>
 			</section>
  		</div>
