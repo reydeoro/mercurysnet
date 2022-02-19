@@ -28,19 +28,23 @@
 			</div>
 			<div class="topics">
 				<dl>
-					<dt>20180101</dt>
-					<dd>新着情報の内容が入ります。</dd>
-				</dl>
+				<?php
+				// news_postsを利用して、柚原のお知らせを追加する。
+				$news_posts = get_posts('post_type=yuzuhara_news&posts_per_page=5');
 
-				<dl>
-					<dt>20180101</dt>
-					<dd>新着情報の内容が入ります。</dd>
+				foreach ( $news_posts as $post ): // ループの開始
+				setup_postdata( $post ); // 記事データの取得
+				?>
+				<dt><?php the_time('Y/m/d') ?></dt>
+				<dd>
+					<a href="<?php the_permalink(); ?>"><?php the_title();?></a>
+				</dd>
 				</dl>
-
-				<dl>
-					<dt>20180101</dt>
-					<dd>新着情報の内容が入ります。</dd>
-				</dl>
+				<?php
+				endforeach; // ループの終了
+				wp_reset_postdata(); // 直前のクエリを復元する
+				?>
+				
 			</div>
 		</section>
 
@@ -136,7 +140,7 @@
 						</dt>
 						<dd class="titlekey">
 							<h3>タイトルホルダー</h3>
-							<p>タイトルだよー</p>
+							<p>ここではタイトルを入力します。これだけ長い文字でも大丈夫でしょうか？</p>
 						</dd>
 					</dl>
 
