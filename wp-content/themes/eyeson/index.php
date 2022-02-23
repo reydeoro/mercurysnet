@@ -120,20 +120,40 @@
 
 				<!--柚原のブログdlタグで紹介します。ボーダーは削除します。-->
 				<div class="blog">
+					<?php
+					// news_postsを利用して、柚原のお知らせを追加する。
+					$news_posts = get_posts('post_type=yuzuhara_news&posts_per_page=5');
+
+					foreach ( $news_posts as $post ): // ループの開始
+					setup_postdata( $post ); // 記事データの取得
+					?>
 					<dl class="clearfix">
 						<dt class ="blogimage"> 
 						<div class="newblogart">
-							<img src="img/movie.jpg">
+						<?php if(has_post_thumbnail()):?>
+							<img src="<?php echo get_the_post_thumbnail_url(); ?>">
+						<?php else: ?>
+							<img src="" src="<?php echo get_template_directory_uri(); ?>img/yozora.png"/>
+						<?php endif; ?>
+							
 						</div>
 						</dt>
 						<dd class="titlekey">
-							<h3>タイトルホルダー</h3>
-							<p>タイトルだよー</p>
+							<dt><?php the_time('Y/m/d') ?></dt>
+							<dd>
+								<a href="<?php the_permalink(); ?>"><?php the_title();?></a>
+							</dd>
+							</dl>
+							<?php
+							endforeach; // ループの終了
+							wp_reset_postdata(); // 直前のクエリを復元する
+							?>
 						</dd>
 					</dl>
 
+
 					<dl class="clearfix">
-					<dt class ="blogimage"> 
+						<dt class ="blogimage"> 
 						<div class="newblogart">
 							<img src="img/movie.jpg">
 						</div>

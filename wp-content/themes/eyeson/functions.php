@@ -11,6 +11,7 @@ function add_stylesheet() {
  wp_enqueue_style('style', '', array(), '1.0', false);
 }
 add_action('wp_enqueue_scripts', 'add_stylesheet');
+add_theme_support('post-thumbnails');
 
 
 /* ---------------------------------------
