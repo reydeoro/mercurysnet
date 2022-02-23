@@ -30,7 +30,7 @@
 				<dl>
 				<?php
 				// news_postsを利用して、柚原のお知らせを追加する。
-				$news_posts = get_posts('post_type=yuzuhara_news&posts_per_page=5');
+				$news_posts = get_posts('post_type=yuzuhara_news&posts_per_page=3');
 
 				foreach ( $news_posts as $post ): // ループの開始
 				setup_postdata( $post ); // 記事データの取得
@@ -39,6 +39,7 @@
 				<dd>
 					<a href="<?php the_permalink(); ?>"><?php the_title();?></a>
 				</dd>
+				
 				</dl>
 				<?php
 				endforeach; // ループの終了
