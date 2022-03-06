@@ -20,4 +20,7 @@
 		    </ul>
 		  </div>
 		</nav>
+		<div class="sitelogo">
+		<img src="img/sitelogo.png">
+		</div>
 	</header>

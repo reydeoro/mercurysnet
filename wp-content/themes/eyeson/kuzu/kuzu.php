@@ -1,3 +1,0 @@
-<html>
-kuzu
-</html>

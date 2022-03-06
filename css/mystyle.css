@@ -162,6 +162,13 @@ img{ max-width:100%;  }
   transition: 0.5s ease;  
 }
 
+/*サイトロゴの調節*/
+.sitelogo img{
+  display: block;
+  margin:auto;
+
+}
+
 /*サイドバーを真ん中に揃えて表示*/
 #sidebar{
   margin-top: 20px;

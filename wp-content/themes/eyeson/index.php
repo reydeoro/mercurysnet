@@ -14,7 +14,6 @@
 
 <body>
 	<?php get_header(); ?>
-	<h1 class="text-center">吟遊詩人ゆずはらマーキュリーのサイトです</h1>
  			<p class="text-center">
  				底辺YouTuber、「ゆずはらマーキュリー」のWebサイトです。
  				<br>
@@ -134,7 +133,7 @@
 						<?php if(has_post_thumbnail()):?>
 							<img src="<?php echo get_the_post_thumbnail_url(); ?>">
 						<?php else: ?>
-							<img src="" src="<?php echo get_template_directory_uri(); ?>img/yozora.png"/>
+							<img src="<?php echo get_template_directory_uri(); ?>/img/nonoimage.png">
 						<?php endif; ?>
 							
 						</div>
