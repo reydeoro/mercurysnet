@@ -21,6 +21,6 @@
 		  </div>
 		</nav>
 		<div class="sitelogo">
-		<img src="img/sitelogo.png">
+		<img src="<?php echo get_template_directory_uri(); ?>/img/sitelogo.png">
 		</div>
 	</header>
