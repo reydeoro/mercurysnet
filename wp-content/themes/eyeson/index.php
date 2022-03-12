@@ -15,9 +15,9 @@
 <body>
 	<?php get_header(); ?>
  			<p class="text-center">
- 				底辺YouTuber、「ゆずはらマーキュリー」のWebサイトです。
+ 				底辺YouTuber、「ゆずはらマーキュリー」の<span class="phonebr">Webサイトです。
  				<br>
-				みんなで楽しめる、楽しませるやばい吟遊詩人で〜す！
+				みんなで楽しめる、楽しませる<span class="phonebr">やばい吟遊詩人で〜す！
  			</p>
 	
 		<!--最新ニュースを表示します-->
@@ -50,6 +50,9 @@
 
 	 <section id="content">
 	 <div id="content-wrap" class="container">
+	 		<div class="newstitle">
+				ピッチピチの記事！
+			</div>
  		<!--おすすめ記事の表示、flexで表示したい-->
 		 	<div class="container">
 				<div class="item">
@@ -74,10 +77,12 @@
 		<!--メイン記事をかき込みます-->
 	 	<div id="main" class="col-md-9">
 			<section id="tubetube">
-			<div class="newsbodytitle">
+			<div class="newstitle">
 				・Youtubeチャンネル
 			</div>
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/feSC-1wSngM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<div class="videoframe">
+			<iframe src="https://www.youtube.com/embed/feSC-1wSngM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
 			</section>
 
 			<!--最新ニュースを表示-->
