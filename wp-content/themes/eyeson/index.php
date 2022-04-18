@@ -81,7 +81,7 @@
 				・Youtubeチャンネル
 			</div>
 			<div class="videoframe">
-			<iframe src="https://www.youtube.com/embed/feSC-1wSngM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<iframe width="570" height="315" src="https://www.youtube.com/embed/feSC-1wSngM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			</div>
 			</section>
 

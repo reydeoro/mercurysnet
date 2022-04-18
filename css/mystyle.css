@@ -182,11 +182,6 @@ footer p{
   color: white;
 }
 
-.videoframe{
-  width:1280px;
-  height:720px
-}
-
 /*スマホのレスポンシブ対応、サイドバーは削除*/
 @media screen and (max-width: 480px) {
   #sidebar{
@@ -215,13 +210,6 @@ footer p{
   .topics {
     width: 100%;
     margin: 0 auto;
-  }
-
-  .videoframe{
-    width: 100%;
-    height: 100%;
-    padding: 10px;
-    text-align: center;
   }
 
   .phonebr{
